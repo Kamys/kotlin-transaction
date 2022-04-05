@@ -1,0 +1,1 @@
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=1234 -e MYSQL_USER=user -p 3306:3306 -d amd64/mysql:latest
